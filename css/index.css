@@ -29,6 +29,10 @@ a::before {
     width: 10px;
     height: 10px;
 }
+a:hover {
+    color: #B87D00;
+    transition: color .2s;
+}
 
 #button {
     display: inline-block;
