@@ -1,0 +1,14 @@
+
+#box {
+    display: inline-block;
+    background-color: var(--color-black-second);
+    filter: drop-shadow(10px 10px 0px var(--color-black-first));
+    padding: 42px 25px;
+    padding-left: 40px;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-bottom: 38px
+}
+#box h1{
+    margin-bottom: 20px;
+}

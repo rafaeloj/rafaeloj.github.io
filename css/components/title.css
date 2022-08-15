@@ -1,0 +1,14 @@
+h1 {
+    color: var(--color-third);
+    font-family: "Press Start 2P", "Roboto Mono", sans-serif;
+    -webkit-text-stroke: var(--color-fourth) 1px;
+    max-width: 550px;
+    text-shadow: 4px 4px 0px var(--color-black-first);
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Press Start 2P", "Roboto Mono", sans-serif;
+    color: var(--color-fifth);
+    text-shadow: 4px 4px 0px var(--color-black-first);
+}
