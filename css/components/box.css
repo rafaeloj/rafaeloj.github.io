@@ -1,5 +1,5 @@
 
-#box {
+.box {
     display: inline-block;
     background-color: var(--color-black-second);
     filter: drop-shadow(10px 10px 0px var(--color-black-first));
@@ -9,6 +9,6 @@
     margin-left: 90px;
     margin-bottom: 38px
 }
-#box h1{
+.box .title{
     margin-bottom: 20px;
 }

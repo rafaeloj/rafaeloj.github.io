@@ -1,0 +1,17 @@
+.page-hero {
+    background-image: url("../../assets/img/background-pixelate.png"), url("../../assets/img/background-image-normal.png");
+    background-size: contain, contain;
+    background-color: var(--color-fourth);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    height: 750px
+}
+
+.page-hero-button {
+    margin-right: 110px;
+}
+
+.page-hero-button:first-child {
+    margin-left: 180px;
+    margin-right: 110px;
+}
