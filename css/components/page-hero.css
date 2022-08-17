@@ -1,17 +1,25 @@
 .page-hero {
     background-image: url("../../assets/img/background-pixelate.png"), url("../../assets/img/background-image-normal.png");
-    background-size: contain, contain;
+    background-size: 69.3% 100%, 30% 100%;
     background-color: var(--color-fourth);
     background-repeat: no-repeat, no-repeat;
     background-position: left, right;
-    height: 750px
+    border-bottom: 10px solid var(--color-fourth);
+    box-sizing: border-box;
+    height: 700px;
+    padding-top: 110px;
+    padding-left: 90px;
 }
 
-.page-hero-button {
-    margin-right: 110px;
+.page-hero .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 630px
 }
-
-.page-hero-button:first-child {
-    margin-left: 180px;
-    margin-right: 110px;
+.page-hero .box {
+    margin-bottom: 40px
+}
+.page-hero .navigation{
+    display: flex;
+    justify-content: space-around;
 }
