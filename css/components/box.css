@@ -1,8 +1,9 @@
 
 .box {
     display: inline-block;
-    background-color: var(--color-black-second);
-    filter: drop-shadow(10px 10px 0px var(--color-black-first));
+    background-color: var(--color-black-fourth);
+    border: 1px solid var(--color-black-third);
+    filter: drop-shadow(10px 10px 0px var(--color-black-second));
     padding: 42px 25px;
     padding-left: 40px;
 }

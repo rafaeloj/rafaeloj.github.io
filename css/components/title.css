@@ -1,7 +1,7 @@
 .title {
     color: var(--color-third);
     font-family: "Press Start 2P", "Roboto Mono", sans-serif;
-    -webkit-text-stroke: var(--color-fourth) 1px;
+    -webkit-text-stroke: var(--color-first) 1px;
     max-width: 550px;
     text-shadow: 4px 4px 0px var(--color-black-first);
     font-size: 40px;
@@ -9,6 +9,7 @@
 
 .subtitle {
     font-family: "Press Start 2P", "Roboto Mono", sans-serif;
-    color: var(--color-fifth);
+    color: var(--color-fourth);
+    -webkit-text-stroke: var(--color-black-first) 1px;
     text-shadow: 4px 4px 0px var(--color-black-first);
 }
