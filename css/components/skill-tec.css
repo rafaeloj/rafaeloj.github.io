@@ -1,0 +1,7 @@
+.skill-tec {
+    font-family: "Press Start 2P", "Roboto Mono", sans-serif;
+    font-size: 25px;
+    color: var(--color-black-first);
+    display: flex;
+    grid-gap: 27px;
+}

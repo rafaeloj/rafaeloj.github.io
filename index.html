@@ -17,10 +17,10 @@
         <link rel="stylesheet" href="./css/components/section.css">
         <link rel="stylesheet" href="./css/components/logo.css">
         <link rel="stylesheet" href="./css/components/header-item.css">
-        <link rel="stylesheet" href="./css/components/title.css">
+        <link rel="stylesheet" href="./css/components/main-title.css">
         <link rel="stylesheet" href="./css/components/page-hero.css">
-        <link rel="stylesheet" href="./css/components/skills.css">
-        <link rel="stylesheet" href="./css/components/score.css">
+        <link rel="stylesheet" href="./css/components/skill-tec.css">
+        <link rel="stylesheet" href="./css/components/progress-bar.css">
     </head>
     <body>
         <header class="header">
@@ -38,7 +38,7 @@
         <section class="page-hero">
             <div class="wrapper">
                 <div class="box">
-                    <h1 class="title">Rafael Jarczewski</h1>
+                    <h1 class="main-title">Rafael Jarczewski</h1>
                     <h2 class="subtitle">Desenvolvedor</h2>
                 </div>
                 <div class="navigation">
@@ -49,67 +49,18 @@
         </section>
 
         <section id="skills" class="section">
-            <h1 class="title -second">Skills</h1>
-            <div class="skills-grid">
-                <div class="skills-box">
-                    <div class="score-item">
-                        <img class="score-icon" src="/assets/img/python_icon.png" alt="python-icon">
-                        <div class="score-box">
-                            <h3 class="score-title">Python</h3>
-                            <div class="score" width="300px" height="40px">
-                                <div class="score-lvl" style="width: 90%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="score-item">
-                        <img class="score-icon" src="/assets/img/c++_icon.png" alt="python-icon">
-                        <div class="score-box">
-                            <h3 class="score-title">C++</h3>
-                            <div class="score" width="300px" height="40px">
-                                <div class="score-lvl" style="width: 80%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="score-item">
-                        <img class="score-icon" src="/assets/img/js_icon.png" alt="python-icon">
-                        <div class="score-box">
-                            <h3 class="score-title">JavaScript</h3>
-                            <div class="score" width="300px" height="40px">
-                                <div class="score-lvl" style="width: 50%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="score-item">
-                        <img class="score-icon" src="/assets/img/html_icon.png" alt="python-icon">
-                        <div class="score-box">
-                            <h3 class="score-title">HTML</h3>
-                            <div class="score" width="300px" height="40px">
-                                <div class="score-lvl" style="width: 50%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="score-item">
-                        <img class="score-icon" src="/assets/img/css_icon.png" alt="python-icon">
-                        <div class="score-box">
-                            <h3 class="score-title">CSS</h3>
-                            <div class="score" width="300px" height="40px">
-                                <div class="score-lvl" style="width: 45%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="score-item">
-                        <img class="score-icon" src="/assets/img/typescript_icon.jpg" alt="python-icon">
-                        <div class="score-box">
-                            <h3 class="score-title">TypeScript</h3>
-                            <div class="score" width="300px" height="40px">
-                                <div class="score-lvl" style="width: 35%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h1 class="main-title -second">Skills</h1>
+            <dl class="skill-tec"> <!-- Description list-->
+                <dd class="icon"><!-- Define Description-->
+                    <img src="./assets/img/python_icon.png" alt="python3">
+                </dd> 
+                <dt class="title">Python</dt> <!-- Description title-->
+                <dd>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </dd>
+            </dl>
         </section>
     </body>
 </html>
