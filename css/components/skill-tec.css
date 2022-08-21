@@ -5,3 +5,10 @@
     display: flex;
     grid-gap: 27px;
 }
+
+.skill-tec .right {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    justify-content: center;
+}
