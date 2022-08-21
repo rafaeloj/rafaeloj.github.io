@@ -6,10 +6,12 @@
     text-shadow: 4px 4px 0px var(--color-black-first);
     font-size: 40px;
 }
-.main-title.-second{
+
+.main-title.-second {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
-
 
 .subtitle {
     font-family: "Press Start 2P", "Roboto Mono", sans-serif;

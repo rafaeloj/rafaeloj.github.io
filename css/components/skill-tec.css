@@ -12,3 +12,8 @@
     grid-gap: 16px;
     justify-content: center;
 }
+
+.skill-tec .icon {
+    width: 90px;
+    height: 90px;
+}
