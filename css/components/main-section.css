@@ -1,0 +1,19 @@
+.main-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid var(--color-fourth);
+}
+
+.main-section .main-title {
+    margin-bottom: 60px;
+}
+
+.main-section.-skills{
+    background-color: var(--color-fifth);
+}
+
+.main-section.-project {
+    background-color: var(--color-first);
+    /* display: flex; */
+    /* justify-content: space-around; */
+}

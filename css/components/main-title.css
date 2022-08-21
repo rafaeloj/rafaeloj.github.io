@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.subtitle {
+.main-subtitle {
     font-family: "Press Start 2P", "Roboto Mono", sans-serif;
     color: var(--color-fourth);
     -webkit-text-stroke: var(--color-black-first) 1px;
