@@ -1,7 +1,7 @@
 .progress-bar{
     border: 5px solid var(--color-black-first);
     height: 40px;
-    box-sizing: border-box;
+    page-hero-box-sizing: border-page-hero-box;
 }
 
 .progress-bar::-webkit-progress-bar {

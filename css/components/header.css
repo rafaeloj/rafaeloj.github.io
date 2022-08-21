@@ -1,7 +1,0 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--color-first);
-    border-bottom: 10px solid var(--color-fourth);
-    padding: 10px 20px;
-}

@@ -11,48 +11,48 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&family=Roboto+Mono:wght@300;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/components/box.css">
-        <link rel="stylesheet" href="./css/components/button.css">
-        <link rel="stylesheet" href="./css/components/header.css">
-        <link rel="stylesheet" href="./css/components/icon.css">
-        <link rel="stylesheet" href="./css/components/section.css">
-        <link rel="stylesheet" href="./css/components/logo.css">
+        <link rel="stylesheet" href="./css/components/page-hero-box.css">
+        <link rel="stylesheet" href="./css/components/main-button.css">
+        <link rel="stylesheet" href="./css/components/main-header.css">
+        <link rel="stylesheet" href="./css/components/main-section.css">
+        <link rel="stylesheet" href="./css/components/logo-img.css">
         <link rel="stylesheet" href="./css/components/header-item.css">
         <link rel="stylesheet" href="./css/components/main-title.css">
         <link rel="stylesheet" href="./css/components/page-hero.css">
         <link rel="stylesheet" href="./css/components/skill-tec.css">
-        <link rel="stylesheet" href="./css/components/wrapper-skill.css">
+        <link rel="stylesheet" href="./css/components/main-wrapper.css">
         <link rel="stylesheet" href="./css/components/progress-bar.css">
+        <link rel="stylesheet" href="./css/components/project-box.css">
     </head>
     <body>
-        <header class="header">
+        <header class="main-header">
             <img class="logo-img" src="./assets/img/logo.png" alt="Avatar do Rafael Jarczewski">
             
             <nav>
                 <a class="header-items" href="#skills" lang="en">Skills</a>
-                <a class="header-items" href="">Projetos</a>
+                <a class="header-items" href="#Projects">Projetos</a>
                 <a class="header-items" href="">Sobre</a>
                 <a class="header-items" href="">Contatos</a>
-                <a class="button" href="" lang="en">Download CV</a>
+                <a class="main-button" href="" lang="en">Download CV</a>
             </nav>
         </header>
         
         <section class="page-hero">
             <div class="wrapper">
-                <div class="box">
+                <div class="page-hero-box">
                     <h1 class="main-title">Rafael Jarczewski</h1>
-                    <h2 class="subtitle">Desenvolvedor</h2>
+                    <h2 class="main-subtitle">Desenvolvedor</h2>
                 </div>
                 <div class="navigation">
-                    <a class="button" href="" lang="en"> Download CV</a>
-                    <a class="button" href="">Contatos</a>
+                    <a class="main-button" href="" lang="en"> Download CV</a>
+                    <a class="main-button" href="">Contatos</a>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="section">
+        <section id="skills" class="main-section -skills">
             <h1 class="main-title -second">Skills</h1>
-            <div class="wrapper-skill">
+            <div class="main-wrapper">
                 <artcile class="skill-tec">
                     <img class="icon" src="./assets/img/python_icon.png" alt="python3">
                     <div class="right">
@@ -108,7 +108,27 @@
                     </div>
                 </artcile>
             </div>
-
+        </section>
+    
+        <section id="Projects" class="main-section -project">
+            <h1 class="main-title -second">Projetos</h1>
+            <div class="main-wrapper -project">
+                <div class="project-box">
+                    <a href="https://github.com/rafaeloj/NamiBot">
+                        <img class="icon" src="./assets/img/botche.png" alt="Bot para o discord">
+                    </a>
+                </div>
+                <div class="project-box">
+                    <a href="https://github.com/rafaeloj/sorting-algorithm">
+                        <img class="icon" src="./assets/img/sort-algorithm.png" alt="Algoritmos de ordenação">
+                    </a>
+                </div>
+                <div class="project-box">
+                    <a href="https://github.com/rafaeloj/Clustering">
+                        <img class="icon" src="./assets/img/clustering.png" alt="Algoritmos de clusterização">
+                    </a>
+                </div>
+            </div>
         </section>
     </body>
 </html>
