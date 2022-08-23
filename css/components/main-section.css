@@ -8,12 +8,12 @@
     margin-bottom: 60px;
 }
 
-.main-section.-skills{
+.main-section.-bgBeige{
     background-color: var(--color-fifth);
+    border-color: var(--color-third);
 }
 
-.main-section.-project {
+.main-section.-bgDarkMossGreen {
     background-color: var(--color-first);
-    /* display: flex; */
-    /* justify-content: space-around; */
+    border-color: var(--color-fifth);
 }
