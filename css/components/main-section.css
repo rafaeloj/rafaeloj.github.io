@@ -10,10 +10,10 @@
 
 .main-section.-bgBeige{
     background-color: var(--color-fifth);
-    border-color: var(--color-third);
+    border-color: var(--color-fourth);
 }
 
 .main-section.-bgDarkMossGreen {
     background-color: var(--color-first);
-    border-color: var(--color-fifth);
+    border-color: var(--color-third);
 }

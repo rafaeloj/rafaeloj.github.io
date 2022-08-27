@@ -19,3 +19,8 @@
     -webkit-text-stroke: var(--color-black-first) 1px;
     text-shadow: 4px 4px 0px var(--color-black-first);
 }
+
+.main-subtitle.-year{
+    border-bottom: 10px solid var(--color-black-first);
+    padding-bottom: 5px;
+}
