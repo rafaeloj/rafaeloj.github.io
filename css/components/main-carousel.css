@@ -9,15 +9,28 @@
 .main-carousel::before {
     content: "";
     position: absolute;
+    left: 45px;
+    top: 30px;
+    display: block;
+    width: calc(100% - 90px);
+    box-sizing: border-box;
+    height: 4px;
+    border-top: 4px solid black;
+}
+.main-carousel::after {
+    content: "";
+    position: absolute;
     left: 0px;
     top: 30px;
     height: 5px;
     display: block;
     width: 100%;
-    box-sizing: border-box;
-    border-top: 5px solid black;
+    /* box-sizing: border-box; */
+    border-top: 4px dashed black;
 }
-
+.main-carousel .button-arrow:hover {
+    transform: scale(1.2) translateY(35%);
+}
 .main-carousel .button-arrow {
     position: absolute;
     bottom: 70px;

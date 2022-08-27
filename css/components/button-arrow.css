@@ -20,6 +20,7 @@
     transform: scale(1.2);
     background-color: var(--color-second);
 }
+
 .button-arrow:hover::before {
     border-bottom-color: var(--color-fourth);
 }
