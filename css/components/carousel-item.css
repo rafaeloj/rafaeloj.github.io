@@ -1,0 +1,42 @@
+.carousel-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item::after {
+    content: '';
+    height: 0px;
+    width: 40px;
+    border-top: 3px dashed black;
+    transform: rotate(90deg) translateX(-173px); 
+}
+.carousel-item .title {
+    font-family: "Press Start 2P", "Roboto Mono", sans-serif;
+    color: var(--color-black-first);
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.carousel-item .logo {
+    border: 5px solid var(--color-black-first);
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.carousel-item.-clean .logo {
+    padding: 0px
+}
+
+.carousel-item:nth-child(odd) .logo{
+    background-color: var(--color-first);
+    border-color: var(--color-fourth);
+}
+
+.logo img{
+    max-width: 140px;
+}

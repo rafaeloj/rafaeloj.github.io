@@ -1,6 +1,10 @@
 body {
     font-family: "Fira Code", "Roboto Mono", sans-serif;
 }
-body, h1, h2, h3{
+body, h1, h2, h3, figure{
     margin: 0px;
+    padding: 0px;
+}
+button {
+    border: 0px;
 }
