@@ -1,0 +1,35 @@
+.button-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-fourth);
+    box-shadow: 4px 4px 0px var(--color-black-first);
+    cursor: pointer;
+    transition: background-color 250ms, border-bottom-color 250ms, transform 50ms;
+}
+.button-arrow::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 37px;
+    height: 37px;
+    border: 18px solid transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 37px solid var(--color-second);
+}
+.button-arrow:hover {
+    transform: scale(1.2);
+    background-color: var(--color-second);
+}
+.button-arrow:hover::before {
+    border-bottom-color: var(--color-fourth);
+}
+.button-arrow.-right::before {
+    transform: rotate(90deg) translateY(-2px);
+}
+.button-arrow.-left::before {
+    transform: rotate(270deg) translateY(-2px);
+}
+
+.button-arrow .content {
+    display: none;
+}
